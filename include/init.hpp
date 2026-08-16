@@ -1,8 +1,8 @@
 #ifndef GDSENSE_INIT_HPP
 #define GDSENSE_INIT_HPP
 
-void initialize_gdsense_module(void *p_userdata, GDExtensionInitializationLevel p_level);
-void deinitialize_gdsense_module(void *p_userdata, GDExtensionInitializationLevel p_level);
+void initialize_gdsense_module(GDExtensionInitializationLevel p_level);
+void deinitialize_gdsense_module(GDExtensionInitializationLevel p_level);
 
 extern "C" {
 
