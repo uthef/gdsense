@@ -31,7 +31,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE ${godot-cpp_SOURCE_DIR}/inclu
 target_include_directories(${PROJECT_NAME} PRIVATE ${godot-cpp_SOURCE_DIR}/gdextension)
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_BINARY_DIR}/_deps/godot-cpp-build/gen/include)
 
-configure_file(${CMAKE_SOURCE_DIR}/gdsense.gdextension ${CMAKE_CURRENT_BINARY_DIR}/gdense.gdextension COPYONLY)
+configure_file(${CMAKE_SOURCE_DIR}/gdsense.gdextension ${CMAKE_CURRENT_BINARY_DIR}/gdsense.gdextension COPYONLY)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
     GamepadCoreTestCommon
