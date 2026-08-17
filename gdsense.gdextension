@@ -5,3 +5,5 @@ compatibility_minimum = "4.5"
 [libraries]
 windows.debug = "res://bin/libgdsense.dll"
 windows.release = "res://bin/libgdsense.dll"
+linux.debug = "res://bin/libgdsense.so"
+linux.release = "res://bin/libgdsense.so"
